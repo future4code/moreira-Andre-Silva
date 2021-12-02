@@ -27,24 +27,11 @@
 //Subi num ônibus em Marrocos// 
 //SUBI NUM ÔNIBUS EM MIRROCOS com o tamanho da frase// esse seria o resultado da frase 
 
-const nomeDoUsuario = prompt("Qual seu nome?")
-const emailDoUsuario = prompt("Qual o seu e-mail?")
+function minhaFunção(variavel) {
+return variavel *5
+}
 
-const usuario = `Olá o e-mail ${emailDoUsuario} foi cadastrado com sucesso. Seja bem-vinda(o) ${nomeDoUsuario}`
-console.log(usuario)
-
-let comidasFavoritas = ["pizza","lasanha","chocolate","sorvete","pipoca"]
-console.log(comidasFavoritas)
-
-let minhasComidasFavoritas = comidasFavoritas
-console.log (minhasComidasFavoritas=['Minhas comidas favoritas são:',"pizza","lasanha","chocolate","sorvete","pipoca"])
-
-const comidaUsuario = prompt("Qual sua comida favorita?")
-console.log(comidaUsuario)
-
-const novaComida = comidaUsuario
-
-console.log (novaComida.replaceall)
-
+console.log(minhaFunção(2))
+console.log(minhaFunção(10))
 
 
