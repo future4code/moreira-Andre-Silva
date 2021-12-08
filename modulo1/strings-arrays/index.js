@@ -44,7 +44,4 @@ console.log(comidaUsuario)
 
 const novaComida = comidaUsuario
 
-console.log (novaComida.replaceall)
-
-
 
