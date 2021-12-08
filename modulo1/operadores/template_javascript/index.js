@@ -31,8 +31,4 @@ let segundoNumero = Number (prompt(Digite um número!))
 
 const soma = primeiroNumero + segundoNumero
 
-console.log = soma */
-
-const soma = ("Eu")
-
 
