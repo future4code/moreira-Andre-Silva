@@ -26,7 +26,7 @@ idade = idadeUsuario
 
 console.log(typeof (idade,nome))
 // O código imprime o valor da variável como uma string 
-console.log(`Olá ${nome} você tem ${idade}`)
+console.log(`Olá ${nome} você tem ${idade}anos!`)
 // 2
 const perguntaUm = prompt("Você está usando roupa azul hoje?")
 let respostaUm = perguntaUm
