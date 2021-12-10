@@ -54,6 +54,7 @@ const perguntaUm =   prompt("Quais sua primeira tarefa do dia")
 const respostaUm = [perguntaUm]
 const trocaUm = respostaUm.toString()
 
+<<<<<<< HEAD
 listaDeTarefas[0] = trocaUm
 
 const perguntaDois = prompt("Quais sua segunda tarefa do dia")
@@ -61,6 +62,8 @@ const respostaDois = [perguntaDois]
 const trocaDois = respostaDois.toString()
 
 listaDeTarefas[1] = trocaDois
+=======
+>>>>>>> f49e8f7d2fa1ca410bd441ddab22d433c19270f9
 
 const perguntaTres = prompt("Quais sua terceira tarefa do dia")
 const respostaTres = [perguntaTres]
