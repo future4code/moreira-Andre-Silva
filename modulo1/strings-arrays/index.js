@@ -30,21 +30,21 @@
 //Exercícios de escrita de código
 // 
 // 1)
-// const nomeDoUsuario = prompt("Qual seu nome?")
-// const emailDolUsuario = prompt("Qual seu e-mail")
+const nomeDoUsuario = prompt("Qual seu nome?")
+const emailDolUsuario = prompt("Qual seu e-mail")
 
-// console.log(`O e-mail ${emailDolUsuario} foi cadastrado com sucesso. Seja bem-vinda(o), ${nomeDoUsuario}!`)
-// // 2) 
+console.log(`O e-mail ${emailDolUsuario} foi cadastrado com sucesso. Seja bem-vinda(o), ${nomeDoUsuario}!`)
+// 2) 
 
-// let comidaFavorita = ["Pizza", "Lasanha", "X-burguer", "Coxinha ", "Laranja"]
-// console.log(comidaFavorita)
-// console.log("Essas são as minhas comidas favoritas:",comidaFavorita,)
+let comidaFavorita = ["Pizza", "Lasanha", "X-burguer", "Coxinha ", "Laranja"]
+console.log(comidaFavorita)
+console.log("Essas são as minhas comidas favoritas:",comidaFavorita,)
 
-// let comidaUsuario = prompt(`Qual sua comida favorita?`)
-// const trocarComida = [comidaUsuario]
-// const comidaTrocada = trocarComida.toString()
-// comidaFavorita[1] = comidaTrocada
-// console.log(comidaFavorita)
+let comidaUsuario = prompt(`Qual sua comida favorita?`)
+const trocarComida = [comidaUsuario]
+const comidaTrocada = trocarComida.toString()
+comidaFavorita[1] = comidaTrocada
+console.log(comidaFavorita)
 
 // 3)
 
@@ -54,7 +54,6 @@ const perguntaUm =   prompt("Quais sua primeira tarefa do dia")
 const respostaUm = [perguntaUm]
 const trocaUm = respostaUm.toString()
 
-<<<<<<< HEAD
 listaDeTarefas[0] = trocaUm
 
 const perguntaDois = prompt("Quais sua segunda tarefa do dia")
@@ -62,8 +61,6 @@ const respostaDois = [perguntaDois]
 const trocaDois = respostaDois.toString()
 
 listaDeTarefas[1] = trocaDois
-=======
->>>>>>> f49e8f7d2fa1ca410bd441ddab22d433c19270f9
 
 const perguntaTres = prompt("Quais sua terceira tarefa do dia")
 const respostaTres = [perguntaTres]
