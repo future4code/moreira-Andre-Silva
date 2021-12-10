@@ -22,7 +22,7 @@
 
 //EXERCÍCIO #1
 
-//1-A
+// 1-A
 
 function primeiroExercicioFuncao() {
 
@@ -78,7 +78,7 @@ function exercicioDoisA (primeiroNumero,segundoNumero) {
  function exercicioDoisC(num) {
 
     num = Number (prompt ("Insira um número"))
-    let exerciciosDoisCC = num ==0
+    let exerciciosDoisCC = num % 2 == 0
     return exerciciosDoisCC
 
  }
@@ -95,3 +95,19 @@ function exercicioDoisA (primeiroNumero,segundoNumero) {
  }
 
  console.log (exercicioDoisD())
+
+const numeroFinalUm = Number(prompt("Insira um número"))
+const numeroFinalDois = Number(prompt("Insira outro número"))
+
+ function operacoes(){
+    soma = numeroFinalUm + numeroFinalDois
+    console.log (soma)
+    subtracao = numeroFinalUm - numeroFinalDois
+    console.log(subtracao)
+    divisao = numeroFinalUm / numeroFinalDois
+    console.log(divisao)
+    multiplicacao = numeroFinalUm * numeroFinalDois
+    console.log(multiplicacao)
+    return
+ }
+ console.log(operacoes())
